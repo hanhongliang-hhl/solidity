@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "arrConSort",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "a15",
+						"type": "int256[]"
+					}
+				],
+				"name": "arrConSort1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"constracts/demo.sol": "Voting"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constracts/demo.sol": {
+			"keccak256": "0x706d6b519b626dfd86276d902210269a30df20beec89cc7065244301b2b09b3b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f7614bc74e12fc5ef3d494a8b6a36994cc89a2cc49c47594c723762e76eb9f71",
+				"dweb:/ipfs/QmdMhgp31K4YTYnjmHMV5bRzzVP5ToUAgkykmpkrmVyqWA"
+			]
+		}
+	},
+	"version": 1
+}
